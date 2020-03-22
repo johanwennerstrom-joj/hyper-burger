@@ -4,7 +4,7 @@ export default props => {
   return (
     <div className="patty">
       <div className="patty__container">
-        <img src={props.content.Patty} />
+        <img src={null} />
       </div>
     </div>
   );

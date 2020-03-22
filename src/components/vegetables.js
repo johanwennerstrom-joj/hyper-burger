@@ -20,9 +20,9 @@ export default props => {
   return (
     <div className="vegetables">
       <div className="vegetables__container main-carousel" ref={vegetablesRef}>
-        {props.content.vegetables.map((image, index) => (
-          <img key={index} className="carousel-cell" src={image.filename} />
-        ))}
+        {/* {something.map((image, index) => ( */}
+        <img className="carousel-cell" src={null} />
+        {/* ))} */}
       </div>
     </div>
   );
